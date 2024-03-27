@@ -33,7 +33,7 @@ try:
 except:
     pass
 
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7163580347:AAEaCKwRpLpfj2azeOT-o6axJcfSPeilAn0")
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
